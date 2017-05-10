@@ -3,12 +3,12 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
 		
-		id = "com.everettprogram.htfu2017"
-		versionCode="20"
+		id = "com.everettprogram.myappdummy"
+		versionCode="10"
 
-		version   = "2.0.0">
-		<name>Hands That Feed Us</name>
-		<description>For Food Chain Workers Alliance</description>
+		version   = "1.0.0">
+		<name>MyApp</name>
+		<description>This is a dummy app</description>
 		<author href="everettprogram.org/yei" email="info@everettprogram.org">Everett Program</author>
 	<!--id        = "com.htfu.everett"-->
 	 <!--
