@@ -1,0 +1,107 @@
+
+
+.centered {
+	text-align: center;
+}
+
+.cen-full-width {
+	width: 100%;
+	margin: auto;
+}
+
+.for-back-nav {
+	width: 70%;
+	margin: auto;
+}
+
+.full-width {
+	width: 98%;
+	margin: auto;
+}
+
+.home-button {
+	width: 35%;
+	margin: auto;
+}
+.back-button {
+	width: 35%;
+	margin: auto;
+}
+
+.consumer-rec-panel {
+	margin-bottom: 50px;
+  padding: 3px;
+  background-color: rgba(232, 232, 232, 0.26);
+}
+
+.consumer-rec-panel p {
+  padding: 0 10px;
+}
+
+.logo {
+	width: 80%;
+}
+
+.members-list, .credit-line {
+	list-style-type: none;
+}
+
+/*Visual Feedback for Image Links*/
+
+/*In Body*/
+.ui-content a img:focus, .ui-content a img:active{
+  /*box-shadow: 0 0 5px 5px #000;*/
+	background-color: #dedede;
+	border: 2px solid white;
+
+}
+
+/*In Footer Grid*/
+.ui-footer a img:focus, .ui-footer a img:active{
+  /*box-shadow: 0 0 5px 5px #000;*/
+	  background-color: #c73a22;
+    border-radius: 10px;
+}
+
+
+
+/*
+Removes the borders from the footer. Easiest way to solve the awkwardness of the non-sticky footer
+*/
+.ui-footer { 
+	border: 0px black solid;
+}
+
+.for-back-nav-p {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #f9f9f9;
+	opacity: 1.0;
+}
+
+.no-border-header {
+	border-bottom: 0px black;
+}
+
+/*Element Styles*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #C73A22;
+}
+
+#credits h4 {
+	margin-bottom: 0px;
+}
+.researchers p {
+	margin-top: 5px;
+}
+
+/*Inline Styles*/
+
+.htfu-bold {
+	font-weight: bold;
+	color: #C73A22;
+}

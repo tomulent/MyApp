@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTFU</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/custom.css" />
+		<script src="scripts/jquery.js"></script>
+		<script src="scripts/jquery-mobile.js"></script>
+
+	</head>
+<body>
+
+<div data-role="page" id="landing">
+
+	<div data-role="main" class="ui-content">
+		<img src="assets/landing-02.svg" class="cen-full-width" >
+		<div id="spacer-landing-top"></div>	
+			<p>It is not only important to know where your food comes from, but <strong><em>who</em></strong> your food comes from.</p>
+			<p>The purpose of this app is to increase the public’s understanding of the food chain, how it affects workers and why it matters.</p>
+			<p>By learning the context and stories of food chain, consumers and policymakers can make better decisions and take action to support the workers in the chain—<span class="htfu-bold">the hands that feed us.</span></p>
+		<div id="spacer-landing-top"></div>	
+	</div>
+	<div data-role="footer">
+		<p class="centered"><a href="#home-page"><img src="assets/buttons/begin-button-03.svg" /></a></p>
+	</div>
+</div>
+
+<!--=========== HOME PAGE ===================-->
+<div data-role="page" id="home-page">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/home-banner.svg" class="cen-full-width" />
+	</div>
+	
+	<div data-role="main" class="ui-content">
+
+			<p>The Food Chain Workers Alliance is a coalition of worker-based organizations whose members plant, harvest, process, pack, transport, prepare, serve, and sell food. We're organizing to improve wages and working conditions for all workers along the food chain.</p>
+			<p>We have made this app to:</p>
+				<ul>
+					<li>Address the challenges faced by these workers in the the food system</li>
+					<li>Highlight the working conditions that the majority of food workers face</li>
+					<li>Provide direct ways to support food chain workers for consumers and policymakers</li>
+				</ul>
+				
+			<div class="ui-grid-a">
+				<div class="ui-block-a"><p class="for-back-nav-p"><a href="#meet-the-chain">   <img class="full-width" src="assets/home-menu/meet-the-chain.svg" /></a></p></div>
+				<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-01">  <img class="full-width"         src="assets/home-menu/food-system.svg" /></a></p></div>
+				<div class="ui-block-a"><p class="for-back-nav-p"><a href="#why-care-01">      <img class="full-width"                src="assets/home-menu/why-care.svg" /></a></p></div>
+				<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-01">  <img class="full-width"         src="assets/home-menu/key-findings.svg" /></a></p></div>
+				<div class="ui-block-a"><p class="for-back-nav-p"><a href="#workers-stories">  <img class="full-width"         src="assets/home-menu/workers-stories.svg" /></a></p></div>
+				<div class="ui-block-b"><p class="for-back-nav-p"><a href="#what-can-you-do">  <img class="full-width"         src="assets/home-menu/what-do.svg" /></a></p></div>
+			</div>
+			<p class="for-back-nav-p"><a href="http://foodchainworkers.org/wp-content/uploads/2011/05/FCWA_NoPieceOfThePie_P.pdf" rel="external" target="_blank"><img class="full-width" src="assets/recc/recc-05.svg" /></a></p>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="https://www.facebook.com/foodchainworkersalliance" rel="external" target="_blank"><img class="full-width"         src="assets/recc/recc-06.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="https://twitter.com/foodchainworker" rel="external" target="_blank"><img class="full-width"                       src="assets/recc/recc-07.svg" /></a></p></div>
+		</div>
+		<a href="#credits"><img src="assets/credits.svg" class="" /></a>
+
+	</div><!--/content-->
+</div><!--/page-->
+
+<!--=========== Meet The Chain Pages ===================-->
+<div data-role="page" id="meet-the-chain">
+	<div data-role="main" class="ui-content">
+		<h1>Meet the Chain!</h1>
+			<p>Human labor is a central component at every step of the chain, which includes production, processing, distribution, retail, and service.</p>
+			<p>Food workers include laborers in fields and fisheries (production), bakers and slaughterhouse workers (processing), drivers and warehouse workers (distribution), grocery store cashiers and stockers (retail), and restaurant servers, cooks, dishwashers, and street vendors (service). </p>
+			<p>While some of these workers routinely interact with consumers, many of them—and their job site conditions—remain hidden, whether in remote agricultural fields, behind the closed doors of processing facilities, or in the back of restaurants and retail stores.</p>
+		<div class="ui-grid-a meet-the-chain">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="#production-stats" rel="external">  <img class="full-width" src="assets/chain-thumbs/production.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#processing-stats" rel="external">  <img class="full-width" src="assets/chain-thumbs/processing.svg" /></a></p></div>
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="#distribution-stats" rel="external"><img class="full-width" src="assets/chain-thumbs/distribution.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#retail-stats" rel="external">      <img class="full-width" src="assets/chain-thumbs/retail.svg" /></a></p></div>
+		</div>
+		<p class="for-back-nav-p"><a href="#service-stats">     <img class="for-back-nav" src="assets/chain-thumbs/service.svg" style="width:50%;" /></a></p>
+
+	</div>
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a href="#home-page"><img class="home-button" src="assets/buttons/home.svg" /></a></p>	
+	</div>
+</div><!--/HOME-->
+
+<div data-role="page" id="retail-stats">
+		<p><img src="assets/chain-stats/retail-stats.svg" class="cen-full-width" /></p>
+		
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"  rel="external"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>
+	</div>
+</div><!--/retail page-->
+
+<div data-role="page" id="production-stats">
+	
+	<p><img src="assets/chain-stats/production-stats.svg" class="cen-full-width" /></p>
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"  rel="external"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>
+	</div>
+</div><!--/production page-->
+
+<div data-role="page" id="processing-stats">
+
+	<p><img src="assets/chain-stats/processing-stats.svg" class="cen-full-width" /></p>
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"  rel="external"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>
+	</div>
+</div><!--/processing page-->
+
+<div data-role="page" id="service-stats">
+
+	<p><img src="assets/chain-stats/service-stats.svg" class="cen-full-width" /></p>
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"  rel="external"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>
+	</div>	
+</div><!--/service page-->
+
+<div data-role="page" id="distribution-stats">
+
+
+	<p><img src="assets/chain-stats/distribution-stats.svg" class="cen-full-width" /></p>
+
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"  rel="external"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>
+	</div>
+</div><!--/distribution page-->
+<!--=========== Meet The Chain Pages ===================-->
+
+<!--=========== Food Systems Pages ===================-->
+<div data-role="page" id="food-systems-01">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-01.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+  </div>
+  
+  <div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-02"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page-->
+
+<div data-role="page" id="food-systems-02">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-02.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		
+
+	
+  </div>
+  <div data-role="footer" data-position="fixed" class="footer-style">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-03"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page-->
+
+<div data-role="page" id="food-systems-03">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-03.png" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+		<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-04"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+	</div>		
+</div>
+</div><!--/page-->
+
+<div data-role="page" id="food-systems-04">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-04.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-05"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>
+	</div>
+</div><!--/page-->
+
+<div data-role="page" id="food-systems-05">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-05.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+
+	
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+		<div class="ui-block-b"><p class="for-back-nav-p"><a href="#food-systems-06"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+	</div>		
+</div>
+</div><!--/page-->
+
+<div data-role="page" id="food-systems-06">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/food-system/food-system-06.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+
+		
+  </div>
+  <div data-role="footer" data-position="fixed">
+		<p class="for-back-nav-p"><a href="#home-page"><img class="home-button" src="assets/buttons/home.svg" /></a></p>	
+	</div>
+</div><!--/page-->
+
+<!--=========== END Food Systems Pages ===================-->
+
+<!--===========  Why Care Pages ===================-->
+<div data-role="page" id="why-care-01">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-01.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		<h1>Racism</h1>
+
+			<p>The modern food system is inseparable from the legacy of slavery and the 20th-century inheritance of racism and oppression.</p>
+			<p>Throughout history, people of color have been systematically oppressed in the food chain by the use of:</p>
+			<ul>
+				<li>Indentured laborers from Asia</li>
+				<li>Impoverished Black sharecroppers in the South</li>
+				<li>Bracero program workers</li>
+			</ul>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#why-care-02"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>			
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="why-care-02">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-02.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		<h1>Sexism</h1>
+			<p>The relegation of women to lesser economic and social roles in the U.S. is reflected in the organization of labor in the food system.</p>
+			<p>Historically, women’s work has been devalued due to patriarchal systems that view their labor as less valuable than that of men.</p>
+			<p>Women are the unpaid and often undervalued food workers in the home.</p>
+			<p>In the restaurant industry, both white women and women of color are segregated by job function and earn the lowest wages overall.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#why-care-03"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="why-care-03">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-03.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		<h1>Consolidation</h1>
+			<p>The various sectors of the industrial food system are often dominated by a handful of large corporations.</p>
+			<p>These businesses argue that consolidation will increase efficiency, lower prices, and improve customer service.</p>
+			<p>In reality, consolidation gives a small number of companies enormous control over how food is produced, transported, and sold, while exerting downward pressure on wages and undermining unionization.</p>
+			<p>A striking example of this is Walmart, the largest grocery store chain and corporation in the world. When Walmart demands that suppliers keep costs low, companies along the food chain must respond in order to remain in business. This often results in a domino effect of depressed wages, lower unionization rates, and worse working conditions throughout the food system.</p>	
+	</div><!--/content-->
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#why-care-04"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>			
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="why-care-04">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-04.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		<h1>Decline in Unionship</h1>
+			<p>An important factor contributing to the wages and working conditions in the food system is the level of workforce unionization, or union density.</p>
+			<p>Nearly all sectors of the U.S. economy have experienced a decrease in unionization over the past several decades as employers have resisted workers’ organizing efforts and restructured their operations via increased automation, subcontracting, and global outsourcing.</p>
+			<p>Union-represented workers today earn 26 percent more on average than non-union workers and are far more likely to have health and pension benefits.</p>
+			<p>The recovery of previous levels of unionization would significantly improve the average wages and working conditions throughout the industry.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#why-care-05"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>			
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="why-care-05">
+<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-05.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+	
+	<h1>Government Intervention</h1>
+		<p>U.S. labor laws have historically facilitated cheap labor and oppressive conditions within the food system, although the lack of regulations is often equally damaging.</p>
+		<p>Even when labor protections exist, enforcement can be weak or absent. The government intervenes in food production more directly through major subsidies of agricultural goods, especially corn and soy.</p>
+		<p>Large, profitable farms receive over 70 percent of subsidy payments, which encourages further consolidation of farms into large-scale agribusiness.</p>
+		<p>In short, government policies incentivize an industrial food system that is highly consolidated and emboldened to produce cheap, processed foods.</p>	
+	
+</div><!--/content-->
+
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#why-care-06"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="why-care-06">
+<div data-role="header" class="no-border-header">
+		<img src="assets/why-care/why-care-06.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+		
+</div><!--/content-->
+<div data-role="footer" data-position="fixed">
+		<p class="for-back-nav-p"><a href="#home-page"><img class="back-button" src="assets/buttons/home.svg" /></a></p>	
+		
+</div>
+</div><!--/page =======================================================================-->
+
+<!--=========== END Why Care Pages ===================-->
+
+<!--=========== Key Findings ===================-->
+
+<div data-role="page" id="key-findings-01">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-01.svg" class="cen-full-width" />
+	</div>
+	<div data-role="main" class="ui-content">
+		
+			<p>Employment in the food chain is robust and growing.</p>
+			<p>In fact, the number of food chain workers grew by 13% from 2010 to 2016. 14% of the Nation’s workforce is employed in the food chain.</p>	
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-02"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-02">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-02.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Despite employment growth, the food chain pays the lowest hourly median wage to frontline workers compared to workers in all other industries.</p>
+			<p>The median wage of $10 is well below the $17.53 median wage across all other industries.</p>	
+	</div><!--/content-->
+	<div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-03"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-03">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-03.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Food chain workers rely on public assistance and are more food insecure than other workers. In 2016, 2.8 million workers relied on Food Stamps -- that’s 2.2 times more food insecure than all other industries.</p>	
+	</div><!--/content-->
+	<div data-role="footer" data-position="fixed">
+			<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-04"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>			
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-04">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-04.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Eighty-two percent of food chain workers are in frontline positions. These positions are the lowest paying across all sectors of the industry with limited opportunities to move upward.</p>	
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-05"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>	
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-05">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-05.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Frontline workers in the food chain are racially and ethnically diverse, but most CEOs are white males.</p>	
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="fixed">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-06"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-06">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-06.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Significant racial and gender wage gaps exist.</p>	
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-07"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>	
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-07">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-07.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Non-fatal rates of workplace-caused injury and illness in food production--one of the food chain’s most dangerous sectors--is on the rise. In 2010, there were 4.6 cases per 100 workers. In 2016, it jumped to 5.5 cases per 100 workers.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+				<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+				<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-08"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+			</div>		
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-08">
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-08.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">
+			<p>Food chain workers are members of unions at a steadily decreasing rate. Unions help ensure higher wages and better conditions for workers.</p>
+			<p>As with many sectors of the economy, there has been a dramatic decrease in unionization in the food system over the past 30 years.  Only 6% of food chain workers are unionized.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a data-rel="back"><img class="for-back-nav" src="assets/buttons/back-button.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#key-findings-09"><img class="for-back-nav" src="assets/buttons/forward.svg" /></a></p></div>
+		</div>			
+	</div>
+</div><!--/page =======================================================================-->
+
+<div data-role="page" id="key-findings-09">
+
+	<div data-role="header" class="no-border-header">
+		<img src="assets/key-findings/key-findings-09.svg" class="cen-full-width" />
+</div>
+<div data-role="main" class="ui-content">	
+	</div><!--/content-->
+	<div data-role="footer" data-position="fixed">
+			<p class="for-back-nav-p"><a href="#home-page"><img class="home-button" src="assets/buttons/home.svg" /></a></p>	
+	</div>
+</div><!--/page =======================================================================-->
+
+
+<!--=========== END Key Findings Pages ===================-->
+
+<!--=========== Workers Stories Pages ===================-->
+<div data-role="page" id="workers-stories">
+
+	<div data-role="main" class="ui-content">
+		<h1>Workers’ Stories</h1>
+			<p>To better understand the realities of food work, the Food Chain Workers’ Alliance interviewed 20 workers representing each of the five sectors of the food system from 15 FCWA member organizations.</p>
+			<p>Every worker described significant challenges for frontline food workers</p>
+			<p>They detailed the realities of low wage work, described daily discrimination and abuse, violations of health and safety laws, and the problems that come with temporary employment practices</p>
+			<p>They shared stories about the myriad ways in which these conditions prevent them from living a good life—one in which they have a job where they are valued and treated with dignity, they are paid enough to support their family, and they are given enough time off to relax and spend quality time with loved ones</p>
+			<p>Collected here are the words of workers from every link in the food chain, spanning experiences of age, gender, race, and citizenship. The results are troubling.</p>
+			
+			<div data-role="tabs" id="tabs">
+				
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#story-tab">Stories</a></li>
+						<li><a href="#data-tab">Data</a></li>
+					</ul>
+				</div>
+				
+				<div id="story-tab">
+					<h2>Explore Workers Stories</h2>
+						<p><a href="#worker-story-01"><img src="assets/story-buttons/story-button-01.jpg" class="cen-full-width" /></a></p>
+						<p><a href="#worker-story-02"><img src="assets/story-buttons/story-button-02.jpg" class="cen-full-width" /></a></p>
+						<p><a href="#worker-story-03"><img src="assets/story-buttons/story-button-03.jpg" class="cen-full-width" /></a></p>
+						<p><a href="#worker-story-04"><img src="assets/story-buttons/story-button-04.jpg" class="cen-full-width" /></a></p>
+						<p><a href="#worker-story-05"><img src="assets/story-buttons/story-button-05.jpg" class="cen-full-width" /></a></p>
+						<p><a href="#worker-story-06"><img src="assets/story-buttons/story-button-06.jpg" class="cen-full-width" /></a></p>
+				</div>
+			
+				<div id="data-tab">
+					<p>The challenging national trends for workers in the food system include: the lowest wages in the economy; significant pay gaps for women, immigrants, and people of color; and an expanding sector whose wages lag behind the rest of the economy.</p>
+					<p>While this data charts the severity of the issues, it does not illustrate day-to-day life for workers in the food system. To better understand the realities of food work, we interviewed 20 workers representing each of the five sectors of the food system from 15 Food Chain Workers Alliance member organizations.</p>
+					<p>Below is data on the FCWA workers that were interviewed.</p>
+					
+					<p><img src="assets/story-stats/story-stats-01.svg" class="cen-full-width" /></p>
+					<p><img src="assets/story-stats/story-stats-02.svg" class="cen-full-width" /></p>
+					<p><img src="assets/story-stats/story-stats-03.svg" class="cen-full-width" /></p>
+					<p><img src="assets/story-stats/story-stats-04.svg" class="cen-full-width" /></p>
+				</div>
+				
+			</div><!--/TABS-->
+			
+		
+		
+		<p class="for-back-nav-p"><a href="#home-page"><img class="home-button" src="assets/buttons/home.svg" /></a></p>	
+	</div><!--/content-->
+
+</div><!--/page-->
+
+<div data-role="page" id="worker-story-01">
+
+	<div data-role="main" class="ui-content">
+		<h1>Wages</h1>
+			<p>Food workers make the lowest wages in the economy. However, wages and the experiences around pay vary by sector and employer.</p>
+			<p><img src="assets/workers/workers-01.jpg" class="cen-full-width" /></p>
+			<p>Production workers earn a median hourly wage of $11. Undocumented production workers make even less. Enrique currently earns $9.60 per hour but has worked other jobs where he was paid below the minimum. Catalina worked harvesting oranges at a farm in Florida for over 10 years, making $8.35 per hour.</p>
+			<p>Across all five sectors, we heard tales of wage theft, the failure of employers to pay workers what they earned.</p>
+			<p>Two of the service workers we spoke to receive the tipped minimum wage and shared stories of low or stolen tips.</p>
+			<p>Others detailed not being paid for hours worked.</p>
+			<p><img src="assets/workers/workers-02.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" target="_blank">Download</a> it here.</p>
+		
+	</div><!--/content-->
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+<div data-role="page" id="worker-story-02">
+
+	<div data-role="main" class="ui-content">
+		<h1>Discrimination &amp; Abuse</h1>
+			<p>The problems of low wages and wage theft only partially capture the issues that many food workers face.</p>
+			<p><img src="assets/workers/workers-03.jpg" class="cen-full-width" /></p>
+			<p>All of the workers we interviewed cited routine incidents of unfair treatment, including discrimination and harassment on the basis of race, gender, and immigration status.</p>
+			<p>Moreover, many of those interviewed had stories of managers treating them with disregard and disrespect.</p>
+			<p>The immigrant workers we spoke with, in particular, talked about how discrimination often included threats of deportation to keep them from speaking out about poor conditions and illegal activity, such as not following minimum wage laws or safety regulations.</p>
+			<p>Tiofilo and Jorge, two dishwashers in a New York City restaurant, confirmed this sentiment and emphasized that much of the discrimination they face is based on their immigration status.</p>
+			<p><img src="assets/workers/workers-04.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" target="_blank">Download</a> it here.</p>
+
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+<div data-role="page" id="worker-story-03">
+
+	<div data-role="main" class="ui-content">
+		<h1>Unstable &amp; Temporary Work</h1>
+			<p><img src="assets/workers/workers-05.jpg" class="cen-full-width" /></p>
+			<p>The entire food industry, like all sectors of the economy, is increasingly structured so that companies have "hyper-flexibility" across all areas of their work.</p>
+			<p>Rather than hire workers as permanent employees, companies instead hire workers through contractors, temp agencies, and staffing agencies.</p>
+			<p>These strategies allow companies to avoid paying higher wages and to evade legal responsibility for providing health insurance and other work benefits to the employees.</p>
+			<p>While this flexibility might help companies save money, the effects on workers include lower pay, unpredictable schedules and hours, fewer benefits, little job security, and very few opportunities for advancement.</p>
+			<p>This dependence on cheap, contingent workers effectively creates a low-wage marginalized workforce that can find no possibility of career advancement. Across interviews, we heard stories about how these trends hurt workers.</p>
+			<p><img src="assets/workers/workers-06.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2011/05/FCWA_NoPieceOfThePie_P.pdf" target="_blank">Download</a> it here.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+<div data-role="page" id="worker-story-04">
+
+	<div data-role="main" class="ui-content">
+		<h1>Unpredictable Schedules &amp; Difficult Hours</h1>
+			<p><img src="assets/workers/workers-07.jpg" class="cen-full-width" /></p>
+			<p>Unpredictable scheduling with too few hours or long shifts with no flexibility to cut hours left the workers we interviewed feeling that they lack agency and control over their lives.</p>
+			<p>About half of the workers we interviewed told us about their schedules being kept just below full-time in order for companies to avoid offering them benefits.</p>
+			<p>The other half talked about needing to work so many hours that they had no time for anything else.</p>
+			<p>In addition to not getting enough hours, workers with erratic schedules have trouble keeping a second job because they can’t predict when they will be available.</p>
+			<p>This is a problem because they are often not making quite enough to get by and become trapped in a cycle of poverty.</p>
+			<p><img src="assets/workers/workers-08.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" target="_blank">Download</a> it here.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+<div data-role="page" id="worker-story-05">
+
+	<div data-role="main" class="ui-content">
+		<h1>Personal Health and Sickness</h1>
+			<p>While many of the workers we interviewed told us about getting sick more often because of their jobs, they don’t have any support from the same jobs to ensure that they can take time off to take care of themselves and stay healthy.</p>
+			<p><img src="assets/workers/workers-09.jpg" class="cen-full-width" /></p>
+			<p>Or, even when they do take time off, they are punished for absences with larger workloads, so many report not adequately taking care of their health needs in order to avoid additional stress at work.</p>
+			<p>Some workers have paid sick days after organizing efforts or recent legislation; others, who are employed informally, do not.</p>
+			<p>Because pay is tied to the hours worked, many workers opt to work while sick, even if it is additionally unsafe while handling food.</p>
+			<p>In addition, many workers don’t have health insurance and can’t get the quality care they need when they are sick.</p>
+			<p><img src="assets/workers/workers-10.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" target="_blank">Download</a> it here.</p>
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+<div data-role="page" id="worker-story-06">
+
+	<div data-role="main" class="ui-content">
+		<h1>Organizing</h1>
+			<p>The interviews show that across the board food workers face a variety of serious challenges.</p>
+			<p><img src="assets/workers/workers-11.jpg" class="cen-full-width" /></p>
+			<p>All the interviewees shared one quality in common—they are all members of organizations that are fighting for better conditions, wages, and treatment at their jobs.</p>
+			<p>For example, Steven organizes with the Warehouse Worker Resource Center (WWRC) on its long-term campaign to fight for basic rights for the workers at Cal Cartage warehouse company.</p>
+			<p>He listed the many wins he’s seen while at the warehouse, attributing them to the work of WWRC: (1) more health and safety measures followed; (2) compliance with the requirement that workers are paid for their time at the warehouse if they are called in, even when there is no work; and (3) tougher oversight on paychecks to address wage theft issues.</p>
+			<p><img src="assets/workers/workers-12.jpg" class="cen-full-width" /></p>
+			<p class="centered">Read more of these workers' stories in the full report. <a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" target="_blank">Download</a> it here.</p>
+			
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+
+</div><!--/page-->
+
+<!--=========== END Workers Stories Pages ===================-->
+
+<!--=========== What Can You Do Pages ===================-->
+<div data-role="page" id="what-can-you-do">
+
+	<div data-role="main" class="ui-content">
+		<h1>What Can You Do?</h1>
+			<p>Significant changes are necessary in order to address issues of poor wages and working conditions across the food system.</p>
+			<p>Raising minimum wages and mandating benefits will ensure that workers have the capacity to feed their families, protect their own personal health, and produce our food in fair working conditions. Strengthening and enforcing labor regulations will help to raise standards for all workers by not allowing bad actors to undercut honest employers.</p>
+			<p>Both policymakers and consumers can take steps to improve job conditions across the food system.</p>
+		
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="#recc-01"><img class="full-width"         src="assets/recc/recc-01.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="#recc-02"><img class="full-width"         src="assets/recc/recc-02.svg" /></a></p></div>
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="http://foodchainworkers.org/?page_id=4111" rel="external" target="_blank"><img class="full-width"         src="assets/recc/recc-03.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="http://foodchainworkers.org/?page_id=7"    rel="external" target="_blank"><img class="full-width"         src="assets/recc/recc-04.svg" /></a></p></div>
+		</div>
+		<p class="for-back-nav-p"><a href="http://foodchainworkers.org/wp-content/uploads/2012/06/Hands-That-Feed-Us-Report.pdf" rel="external" target="_blank"><img class="full-width" src="assets/recc/recc-05.svg" /></a></p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><p class="for-back-nav-p"><a href="https://www.facebook.com/foodchainworkersalliance" rel="external" target="_blank"><img class="full-width"         src="assets/recc/recc-06.svg" /></a></p></div>
+			<div class="ui-block-b"><p class="for-back-nav-p"><a href="https://twitter.com/foodchainworker" rel="external" target="_blank"><img class="full-width"                       src="assets/recc/recc-07.svg" /></a></p></div>
+		</div>
+		
+	</div><!--/content-->
+	<div data-role="footer" data-position="">
+	<p class="for-back-nav-p"><a data-rel="back"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>	
+</div>
+
+
+</div><!--/page-->
+
+<div data-role="page" id="recc-01">
+	<div data-role="main" class="ui-content">
+		<p><img src="assets/recc/consumers/recs-for-consumers-title.svg" class="cen-full-width" /></p>
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/consumers/consumer-one.svg" class="cen-full-width" /></p>
+			<p>Consumers can get involved in food worker campaigns in a variety of ways, including attending a rally, signing a petition, speaking to an employer, or using social media</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+		<p><img src="assets/recc/consumers/consumer-two.svg" class="cen-full-width" /></p>
+		<p>Look for certification labels that tell you if the food product was made with good labor standards. <a href="http://fairfacts.thedfta.org" target="_blank">Fairfacts.TheDFTA.org</a> provides an evaluation of the major fair trade labels. Also check out the Fair World Project’s evaluation of fair trade programs’ impact on farmworkers at <a href="https://bit.ly/FWP-farmworkers" target="_blank">bit.ly/FWP-farmworkers</a>.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+		<p><img src="assets/recc/consumers/consumer-three.svg" class="cen-full-width" /></p>
+		<p>This can range from advocating for labor laws and anti-wage theft bills to procurement policies like the Good Food Purchasing Program (<a href="http://goodfoodcities.org/" target="_blank" />GoodGoodCities.org</a>), as well as pro-worker certification programs like the Fair Food Program and the Agricultural Justice Project. Policymakers are ultimately responsible to the voting public, and lobbying representatives can often influence their policy decisions.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+		<p><img src="assets/recc/consumers/consumer-four.svg" class="cen-full-width" /></p>
+		<p>Many local food groups and farmers’ market do not talk about food workers simply because the are unaware of the issues that workers face.</p>
+		</div>
+		
+			<!--<p><img src="assets/recc/consumers.svg" class="cen-full-width" /></p>-->
+	</div><!--/content-->
+<div data-role="footer" data-position="">
+	<p class="for-back-nav-p"><a data-rel="back"><img class="back-button" src="assets/buttons/back-button.svg" /></a></p>	
+</div>
+
+</div><!--/page-->
+
+<div data-role="page" id="recc-02">
+	<div data-role="main" class="ui-content">
+		<p><img src="assets/recc/policymakers/recs-for-policy-title.svg" class="cen-full-width" /></p>
+		
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/policymakers/policymakers-02.svg" class="cen-full-width" /></p>
+			<p>Minimum wages must be increased, and the tipped minimum wage for workers in the foodservice sector and the piece rate pay system in all sector should be abolished. Policies for $15 per hour are being enacted in cities and states across the country and all parts of the U.S. should follow suit. Wag increases should be indexed for inflation.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/policymakers/policymakers-03.svg" class="cen-full-width" /></p>
+			<p>Affordable health care must be provided for all workers. This is not only to ensure that workers remain healthy, but will also help to improve overall public health and food safety issues.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/policymakers/policymakers-04.svg" class="cen-full-width" /></p>
+			<p>Paid sick leave legislation enables workers to stay home from work when they are unhealthy. While some localities have enacted paid sick leave for larger businesses, many workers remain without this important benefit.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/policymakers/policymakers-05.svg" class="cen-full-width" /></p>
+			<p>Research shows that anti-wage theft legislation can greatly reduce the amount of money stolen from paychecks provided the legislation is strong, penalties are high, and the laws are enforced.</p>
+			<p>Policymakers should strengthen these laws and use permit and licensing powers to punish employers who routinely steal wages.</p>
+			<p>Collective bargaining leads to higher wages, benefits, and a stronger voice on the job around issues such as health and safety.</p>
+		</div>
+		
+		<div class="consumer-rec-panel">
+			<p><img src="assets/recc/policymakers/policymakers-06.svg" class="cen-full-width" /></p>
+			<p>The right to organize should be guaranteed for workers throughout the food system, including protection from retaliation. Collective bargaining lead to higher wages and benefits and a stronger voice on the job around issues such as health and safety Policymakers should actively support on-the-ground organizing efforts as well as legislation to strengthen labor laws.</p>
+		</div>
+		
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a data-rel="back"><img class="home-button" src="assets/buttons/back-button.svg" /></a></p>		
+	</div>
+</div><!--/page-->
+
+<!--=========== END What Can You Do Pages ===================-->
+
+<div data-role="page" id="credits">
+	
+	<div data-role="main" class="ui-content">
+		<h1>Credits</h1>
+	
+		<p>This app is a joint collaboration between the Food Chain Workers Alliance and the Everett Program at UC Santa Cruz</p>
+		
+		<p class="centered"><img src="assets/logos/everett-logo.svg" class="logo" id="" /></p>
+		<p>The Everett Program teaches connects undergraduate students with community partners at home and abroad to create innovative solutions to advance social and environmental justice.</p>
+		
+		<ul class="credit-line">
+			<li><span class="credit-callout"><a href="https://www.linkedin.com/in/christine-ongjoco-2a111491/" target="_blank">Christine Ongjoco</a></span>, <i>Executive Fellow</i><br>Lead UI Designer</li>
+			<li><span class="credit-callout"><a href="https://www.linkedin.com/in/tomgelder/" target="_blank">Thomas Gelder</a></span>, <i>Executive Fellow</i><br>Lead Developer</li>
+		</ul>
+		<div class="researchers">
+			<h4>User Testers</h4>
+				<ul class="credit-line">
+					<li>Kayla Jaspeado</li>
+					<li>Ashley Garcia</li>
+					<li>Karla Vega</li>
+					<li>Destiny Ruiz</li>
+					<li>Azul Acre</li>
+					<li>Julian Hanes</li>
+				</ul>
+		</div>
+			
+	<p class="centered"><img src="assets/logos/fcwa-logo.png" class="logo" /></p>
+
+	<h2 class="centered">The Hands That Feed Us Report</h2>
+<div class="researchers">
+	<h4>Research Support Provided By</h4>
+	<p>The Restaurant Opportunities Centers United and the DataCenter</p>
+
+	<h4>Writing Support Provided By</h4>
+	<p>Saru Jayaraman, Director
+	<br><small>Food Labor Research Center, University of California, Berkeley</small></p>
+</div>
+<h4>Funding Support Provided By</h4>
+<ul>
+	<li>The Ford Foundation</li>
+	<li>The Surdna Foundation</li>
+	<li>The Jessie Smith Noyes Foundation</li>
+	<li>The Ben &amp; Jerry’s Foundation</li>
+	<li>The Norman Foundation</li>
+	<li>The Sociological Initiatives Foundation</li>
+	<li>The Abelard Foundation East</li>
+	<li>The Presbyterian Hunger Program</li>
+</ul>
+
+<h3>Alliance Members</h3>
+	<ul class="members-list">
+		<li>Brandworkers International</li>
+		<li>Center for New Community</li>
+		<li>Coalition of Immokalee Workers</li>
+		<li>Comité de Apoyo a los Trabajadores Agrícolas (CATA – Farmworkers Support Committee)</li>
+		<li>Just Harvest USA</li>
+		<li>International Labor Rights Forum</li>
+		<li>Northwest Arkansas Workers’ Justice Center</li>
+		<li>Restaurant Opportunities Center of New York</li>
+		<li>Restaurant Opportunities Centers United</li>
+		<li>UNITE HERE Food Service Division</li>
+		<li>United Food and Commercial Workers (UFCW) Local 770</li>
+		<li>United Food and Commercial Workers (UFCW) Local 1500</li>
+		<li>Warehouse Workers for Justice</li>
+		<li>Warehouse Workers United</li>
+	</ul>
+
+<h3>Research Advisory Committee</h3>
+	<ul>
+		<li><strong>Annette Bernhardt</strong>, Policy Co-Director, National Employment Law Project</li>
+		<li><strong>Hector Cordero-Guzman</strong>, Professor, School of Public Affairs at the City University of New York</li>
+		<li><strong>James DeFilippis</strong>, Associate Professor</li>
+		<li><strong>Edward J.</strong>, Bloustein School of Planning and Public Policy, Rutgers University</li>
+		<li><strong>Eric Holt-Giménez</strong>, Executive Director, Institute for Food and Development Policy – Food First!</li>
+		<li><strong>Emily E. LaBarbera Twarog</strong>, Assistant Professor, School of Labor and Employment Relations, University of Illinois at Urbana-Champaign</li>
+		<li><strong>Nik Theodor</strong>, Associate Professor, Department of Urban Planning and Policy, University of Illinois at Chicago</li>
+		<li><strong>Chris Tilly</strong>, Professor of Urban Planning and Director, Institute for Research on Labor and Employment</li>
+		<li><strong>UCLA Saba Waheed</strong>, Research Director, DataCenter</li>
+		<li><strong>Yvonne Yen Liu</strong>, Senior Research Associate, Applied Research Center</li>
+	</ul>
+
+<p>The Alliance would like to thank the many professors, researchers, students, interns, employers, and workers who devoted many hours to conducting surveys and interviews and generally assisting with this project. In particular, we would like to thank the following staff, volunteers, and student interns for their writing contributions:</p>
+<p>Pro-fessor Emily E. LaBarbera Twarog of the University of Illinois at Urbana-Champaign, Dan Lichtenstein-Boris, Joann Lo, Chris Moulton, Diana Robinson, Karyn Medina, Biko Koenig, Bjorn Claeson, and Bernette Serranor.</p>
+<p>We would also like to thank the following workers, volunteers, student interns and Alliance members’ staff for their research and analysis assistance: Dan Lichtenstein-Boris, Ben Palmquist, Teofilio Reyes, Chris Moulton, Sophia Cheng, Carrie Freshour, Meaghan Mroz-Barrett, Chris Moulton, Aden Abdi, Marianela Acuña-Arreaza, Tara Agrawal, Brandon Barber, Oak-land Bautista, Darlynn Bohanny, Claire Cahen, Stephen Cheng, Demetrie Collins, Rob Cook, Jessica Culley, Cathy Dang, Jordan Delano, Uylonda Dickerson, Marcus Dijon, Katie Duberg, Rebecca Ellis, Antonio Espinoza, Antonio Fuentes, Axel Fuentes, Fernando Garcia, Juanita Gausin, Nick Gerber, Grace Goldfarb, Guadalupe Gonzalo, Beth Gutelius, Jose Manuel Guzman, Garat Ibrahim, Rafael Hernandez, Robert Hines, Olivia Levins-Holden, Kevin Hom, Mariana Huerta, Deathrice Jimerson, Van Joseph, Marty Kirchner, Jesse Kling, Alejandro Lazaro, Anthony Lo, Eddie Lopez, Jesus Lugo, Jessica Lynch, Marilu Maldonado, Alexa Malishchak, Agustin Marales, Diana Marino, Amelia Meza, Brittney Miller, Angelica Muñoz, Fatima Murrieta, Christina Narcisse, Christina Ocampo, Jose Oliva, Oscar Otzoy, Geof Paquette, Maria Patino, Nick Pehl-man, Elvin Perez, Santiago Perez, Silvia Perez, Wilson Perez, Julia Perkins, Dario Pinos, Carlos Rich, Adrian Ricketts, Derrick Robinson, Marc Rodrigues, Nely Rodriguez, Ely Romero, Darinel Salas, Cruz Salucio, Crescenciano Jose Sanchez, Joseph Sanchez, Natalie Sanchez, Easton Smith, Jean Souffrant, Brandi Trapp, Jorge Vera, Jimmy Xi, and Annette Zamora.</p>
+<p>The Alliance would also like to thank Christine Schweidler of the DataCenter for supervising the interns in the employer interview analysis and de-veloping, with Saba Waheed, a participatory data analysis workshop for workers and organizers of the Alliance member organizations.</p>
+
+		
+	</div><!--/content-->
+	
+	<div data-role="footer" data-position="">
+		<p class="for-back-nav-p"><a href="#home-page"><img class="home-button" src="assets/buttons/home.svg" /></a></p>		
+	</div>
+</div><!--/page-->
+</body>
+</html>
