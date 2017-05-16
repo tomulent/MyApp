@@ -6,7 +6,7 @@
 		id = "com.everettprogram.myappdummy"
 		versionCode="10"
 
-		version   = "1.0.0">
+		version   = "1.0.1">
 		<name>MyApp</name>
 		<description>This is a dummy app</description>
 		<author href="everettprogram.org/yei" email="info@everettprogram.org">Everett Program</author>
